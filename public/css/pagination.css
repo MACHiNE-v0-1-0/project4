@@ -1,0 +1,32 @@
+.pagination {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	
+}
+	.pag-item {
+		text-decoration: none;
+		border:1px solid red;
+		width: 20%;
+	}
+
+	.pag-item a{
+		text-decoration: none;
+	}
+
+	.pag-item:hover {
+		background-color: #0060fc;
+		color:red;
+		font-weight: bold;
+	}
+
+	.pag-active {
+		background-color: green;
+		color:red;
+		border:1px solid yellow;
+		text-decoration: none;
+		border-radius: 5px;
+		font-weight: bold;
+		
+	}
+

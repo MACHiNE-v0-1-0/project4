@@ -1,0 +1,81 @@
+#main-menu {
+	padding: 0 10%;
+	height: 30px;
+}
+/*Key frame*/
+@keyframes changeBackgroundToGreen{
+	from {background-color: #f79c83;}
+    to {background-color: #2fed78;}
+
+    from{color:white;}
+    to{color:black;}
+}
+
+@keyframes mymove {
+    50% {background-color: #2fed78;}
+}
+
+	#main-menu .main-menu-item{
+		width: 20%;
+		border:1px solid blue;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	.main-menu-item >a:hover {
+		font-weight: bold;
+		text-decoration: underline;
+		animation: changeBackgroundToGreen 0.5s infinite;
+	}
+
+/*Main menu product item */
+#main-menu-product-item {
+	position: relative;
+	width: 100%;
+}
+#main-menu-product-item:hover {
+
+}
+#main-menu-product-item a {
+
+}
+/* Product sub menu*/
+#product-sub-menu-wrapper {
+	position: relative;
+	width: 100%;
+	
+	z-index: 1000;
+}
+#product-sub-menu{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	width: 100%;
+	z-index: 1000;
+}
+	#product-sub-menu:hover {
+		background-color:#92d1af;
+		color:white;
+		animation: changeBackgroundToGreen 1s infinite;
+	}
+	#product-sub-menu a {
+
+	}
+
+/*Product sub menu 2 */
+#product-sub-menu-2 {
+	position: absolute;
+	top:0;
+	left:100%;
+	display: none;
+	z-index: 1000;
+	width: 100%;
+	background-color: #efb9f7;
+}
+
+#product-sub-menu-2 > div:hover{
+	background-color: #cded65;
+	animation: changeBackgroundToGreen 1s infinite;
+}
+

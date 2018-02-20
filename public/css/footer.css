@@ -1,0 +1,66 @@
+#footer {
+	width: 100%;
+	height: auto;
+	border:1px solid black;
+	padding: 10px;
+}
+	#doi-tac-kinh-doanh {
+		width: 100%;
+	}
+	#doi-tac-kinh-doanh .dtkd-item {
+		width: 12.5%;
+		height: 50px;
+		float: left;
+		border:1px solid green;
+	}
+
+		.dtkd-item:hover{
+			border:2px solid orange;
+		}
+
+/*CONTACT*/
+
+	#contact-info {
+		width: 50%;
+		padding: 10px;
+	}
+
+		#contact-info-1 , #contact-info-2 {
+			width: 50%;
+		}
+
+		.contact-headline {
+			color:black;
+			font-weight: bold;
+			font-size: 18px;
+		}
+	#contact-img{
+		width: 50%;
+		padding-left: 50px;
+	}
+
+		.contact-img-item  {
+			font-size: 50px;
+		}
+
+		#contact-youtube{
+			color:red;
+		}
+
+		#contact-fb{
+			color:blue;
+		}
+		#contact-google-plus {
+			color:red;
+		}
+		#contact-paypal {
+			color:green;
+		}
+		#contact-visa{
+			color:aqua;
+		}
+#license {
+	text-align: center;
+	color:red;
+	font-size: 20px;
+}

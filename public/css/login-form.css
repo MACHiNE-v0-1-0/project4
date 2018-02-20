@@ -1,0 +1,33 @@
+
+
+#login-title{
+	color:red;
+}
+
+#login-title:hover{
+	color:aqua;
+	
+}
+
+
+#submit-login{
+	border:2px solid black;
+	background-color: aqua;
+	font-size: 16px;
+	color:white;
+	display: none;
+}
+
+#submit-login:hover{
+	border-radius: 5px;
+	background-color:orange;
+
+}
+
+
+#login-status{
+	width: 50%;
+	text-align: center;
+	height: 50px;
+	margin: 0 auto;
+}

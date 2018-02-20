@@ -1,0 +1,44 @@
+#cart-check-out-modal {
+	width: 50%;
+	position: fixed;
+	top:100px;
+	left: 25%;
+	right: 25%;
+	z-index: 2000;
+	background-image: url('../img/cart-check-out.jpeg');
+	background-size:  100%;
+	padding: 10px;
+	border:3px solid orange;
+}
+
+#cart-check-out-modal-wrapper {
+	width: 100%;
+	position: relative;
+}
+/*modal head*/
+	
+	/* btn close */
+	#cart-check-out-modal .check-out-btn-close {
+		border-radius: 5px;
+		border:2px solid red;
+	}	
+
+		.check-out-btn-close button {
+			background-color: #f7450e;
+			height: 100%;
+			display: inline-block;
+		}
+
+	.check-out-head {
+		height: 30px;
+	}
+	.check-out-head .check-out-head-title {
+		line-height: 30px;
+	}
+
+	#cart-check-out-note {
+		padding: 10px;	
+		width: 100%;
+
+	}
+	

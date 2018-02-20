@@ -1,0 +1,32 @@
+.btn {
+	
+}
+	.btn:hover{
+		
+		color:black;
+		font-weight: bold;
+		text-decoration: underline;
+		border-radius: 10px;
+		background-color: #758296;
+	}
+	
+	.btn-fullwidth{
+		width: 100%;
+	}
+
+	.btn-fullheight{
+		height: 100%;
+	}
+	
+	.btn-details{
+		color:aqua;
+		background-color: white;
+		border-radius:5px;
+	}
+
+	.btn-buy{
+		color:brown;
+		background-color: orange;
+		border-radius:5px;
+
+	}

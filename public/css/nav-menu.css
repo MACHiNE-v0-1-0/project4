@@ -1,0 +1,24 @@
+
+/* MENU  section in user btn  
+	
+*/
+#menu {
+	position: absolute;
+	width: 100%;
+	display: none;
+	left: 0;
+	background-color: #cbf442;
+	top:100%;
+}
+
+	.menu-item {
+		border-bottom: 2px solid aqua;
+	}
+	.menu-item-important {
+		color:white;
+		background-color: red;
+	}
+	.menu-item:hover {
+		color:white;
+		background-color: #00e3f9;
+	}

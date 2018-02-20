@@ -1,0 +1,39 @@
+#main {
+	width: 80%;
+	float: left;
+}
+	
+	.content {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	
+		.hot-product{
+			width: 25%;
+			float: left;
+			height: 200px;
+			position: relative;
+		}
+
+
+		.hot-product-avatar{
+			width: 100%;
+			height: 60%;
+		}
+		
+		.hot-product-name {
+			width: 100%;
+			height: 20%;
+		}
+
+			
+		.hot-product-price{
+			width: 100%;
+			height: 10%;
+		}
+
+		.hot-product-detail{
+			display: none;
+			margin-bottom: 3px;
+		}
